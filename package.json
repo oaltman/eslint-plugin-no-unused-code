@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-remove-unused-vars",
+  "version": "0.0.0",
+  "description": "Removes unused code",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Ondřej Altman",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "eslint": "^4.17.0",
+    "eslint-plugin-react": "^7.6.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
